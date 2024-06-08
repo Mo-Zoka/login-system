@@ -1,0 +1,15 @@
+.background {
+  background-image: url(../images/wallpaper.png);
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 639.98px) {
+  .container {
+    width: 45%;
+  }
+
+  .my-form .container {
+    width: 75%;
+  }
+}

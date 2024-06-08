@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login system</title>
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="background vh-100 d-flex justify-content-center align-items-center">
+        <div class="my-form container bg-white shadow-lg rounded-2 py-4 text-center">
+            <div class="container d-flex flex-column justify-content-center">
+                <h2 class="pb-4 fw-bolder">Login system</h2>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                    <label for="email">Email address</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                    <label for="password">Password</label>
+                </div>
+                <div id="message"></div>
+                <button type="button" class="btn btn-outline-primary mt-4 loginBtn">Login</button>
+                <p class="pt-3">Don’t have an account? <a href="./sign-up.html">Sign Up</a> </p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
